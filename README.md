@@ -25,6 +25,6 @@ I've chosen a simple two-screen layout with the main screen containing the list 
 Tests are out of scope, but my preferred approach is a variant of the testing pyramid:
 - Unit tests for the smallest units such as repositories, interactors, view models etc.
 - Integrated tests for a small group of more tightly coupled components that provide some functionality that can be tested. I'm not a huge fan of integration tests.
-- (Snapshot tests)[https://github.com/pointfreeco/swift-snapshot-testing] for key UI elements. I try not to overdo it as snapshot tests tend to be flaky due to Xcode/simulator versioning
+- [Snapshot tests](https://github.com/pointfreeco/swift-snapshot-testing) for key UI elements. I try not to overdo it as snapshot tests tend to be flaky due to Xcode/simulator versioning
 - UI tests where it makes sense
 - E2E tests for key workflows, preferably written by a QA engineer 🙂
