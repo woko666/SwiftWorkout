@@ -1,0 +1,10 @@
+disabled_rules: # rule identifiers to exclude from running
+  - trailing_newline
+  - trailing_whitespace
+included: # paths to include during linting. `--path` is ignored if present.
+  - SwiftWorkout
+identifier_name:
+  min_length: 1
+line_length: 240
+type_name:
+  max_length: 50
